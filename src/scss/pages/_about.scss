@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+  color: white;
+  margin-top: 5rem;
+  &-text {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  &-image {
+    height: 15rem;
+    border-radius: 10rem;
+    border: 0.3rem solid var(--accent-color);
+  }
+  &-links {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    a {
+      color: var(--accent-color);
+      svg {
+        font-size: 3rem;
+      }
+    }
+  }
+}

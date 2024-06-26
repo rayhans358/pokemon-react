@@ -1,0 +1,17 @@
+.no-pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  gap: 1rem;
+  img {
+    height: 13rem;
+  }
+  p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+}

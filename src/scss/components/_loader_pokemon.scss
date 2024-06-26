@@ -1,0 +1,13 @@
+.loading-pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 100%;
+  p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+}
